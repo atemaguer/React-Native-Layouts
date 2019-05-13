@@ -20,7 +20,7 @@ export default class EventsList extends Component {
             <Text style={{color:"#595a5e", fontWeight:"600"}}>You have 7 schedules in August</Text>
         </View>
         <View style={{flex:0.4, alignItems:"flex-end"}}>
-          <Image source={require("../../assets/profile.jpeg")} style={styles.image} />
+          <Image source={require("../../assets/profile1.jpeg")} style={styles.image} />
         </View>
       </View>
     )
@@ -48,10 +48,12 @@ export default class EventsList extends Component {
                       borderRadius:50, 
                       paddingHorizontal:5,
                       paddingVertical:3, 
-                      flexDirection:"row"}}>
-                        <Image source={require("../../assets/profile.jpeg")} style={{width:30, height:30, borderRadius:50, marginRight:3}}/>                  
-                        <Image source={require("../../assets/profile.jpeg")} style={{width:30, height:30, borderRadius:50, marginRight:3}}/>                  
-                        <Image source={require("../../assets/profile.jpeg")} style={{width:30, height:30, borderRadius:50, marginRight:3}}/>                  
+                      flexDirection:"row",
+                      alignSelf:"flex-start"
+                      }}>
+                        <Image source={require("../../assets/profile1.jpeg")} style={{width:30, height:30, borderRadius:50, marginRight:3}}/>                  
+                        <Image source={require("../../assets/profile2.jpeg")} style={{width:30, height:30, borderRadius:50, marginRight:3}}/>                  
+                        <Image source={require("../../assets/profile1.jpeg")} style={{width:30, height:30, borderRadius:50, marginRight:3}}/>                  
                         <View style={{justifyContent:"center", alignItems:"center", borderRadius:50, borderColor:"#24717b", borderWidth:2}}>
                             <Text style={{color:"#24717b", paddingHorizontal:10, fontSize:16, fontWeight:"500"}}>{event.numberGoing}+</Text>
                         </View>
