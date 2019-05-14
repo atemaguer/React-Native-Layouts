@@ -2,6 +2,20 @@
 
 React-Native-Layouts is collection of UIs created using mockups from <a>https://dribbble.com/.
 
+### App Gallery.
+
+Here is a sample of the completed apps with there respective mockups.
+
+1. Groceries
+
+    * mockup
+
+        <img src="./images/events.png" style="margin-top:20px" height="300" width="auto">
+
+    * Final App screnshot.
+
+        <img src="./images/events_home.png" style="margin-top:20px" height="400" width="auto">
+
 
 ### Getting Started
 
@@ -15,9 +29,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 ```
 
-The above command will clone all the projects to your local development environment. To start working on given project, change into it's directory. For example assuming I wanted to work on the <i>EventsApp. In your project directory type this.
+The above command will clone all the projects to your local development environment. To start working on given project, change into it's directory. For example assuming I wanted to work on the <i>EventsApp. In your current directory type this.
 
 ```bash
+    cd React-Native-Layouts/
 
     cd EventsApp/
 
@@ -40,7 +55,7 @@ Once the above command is done running, you should be able to run the app. Make 
 ```
 
 
-*Disclaimer* : <span style="color:red"> The apps will be able to run as expected only in Android. For iOS developers, there will be minor alterations since it was originally built and tested on an Android Phone. 
+*Disclaimer* : The apps will be able to run as expected only in Android. For iOS developers, there will be minor alterations since it was originally built and tested on an Android Phone. 
 
 
-Henceforth, you can start editing the and customizing the apps.
+Henceforth, you can start editing and customizing the apps.
