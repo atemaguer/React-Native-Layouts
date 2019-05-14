@@ -10,12 +10,25 @@ Here is a sample of the completed apps with there respective mockups.
 
     * mockup
 
+        <img src="./images/groceries.png" style="margin-top:20px" height="300" width="auto">
+
+    * Final App screnshot.
+
+        <img src="./images/groceries_home.png" style="margin-top:20px" height="400" width="auto">
+
+        <img src="./images/detail_screen.png" style="margin-top:20px" height="400" width="auto">
+
+        <img src="./images/lower_detail_screen.png" style="margin-top:20px" height="400" width="auto">
+
+1. EventsApp
+
+    * mockup
+
         <img src="./images/events.png" style="margin-top:20px" height="300" width="auto">
 
     * Final App screnshot.
 
         <img src="./images/events_home.png" style="margin-top:20px" height="400" width="auto">
-
 
 ### Getting Started
 
