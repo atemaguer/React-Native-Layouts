@@ -4,7 +4,8 @@ import { StyleSheet } from "react-native";
 export const styles = StyleSheet.create({
     container:{
         flex:1,
-        backgroundColor:"#1d1d23"
+        backgroundColor:"#1d1d23",
+        paddingBottom:80
     },
     headerContainer: {
         flexDirection:"row",
@@ -23,7 +24,8 @@ export const styles = StyleSheet.create({
     },
     eventsListcontainer: {
         flex:1,
-        marginTop:10
+        marginTop:10,
+        
     },
     eventContainer:{ 
         flexDirection:"row",
