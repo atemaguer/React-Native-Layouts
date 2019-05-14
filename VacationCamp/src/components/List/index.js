@@ -8,6 +8,7 @@ import {
 import MaterialIcon from "react-native-vector-icons/MaterialIcons";
 import Ionicon from "react-native-vector-icons/Ionicons";
 import MaterialCommunityIcon from "react-native-vector-icons/MaterialCommunityIcons";
+import FontAwesome from "react-native-vector-icons/FontAwesome";
 
 import { styles } from "./styles";
 import themes from "../../themes";
@@ -29,7 +30,7 @@ export default class List extends Component{
               />
             </View>
             <View style={{flex:0.1, paddingHorizontal:5}}>
-              <MaterialIcon name="menu" size={30} color="#ff878d" />
+              <Ionicon name="ios-search" size={30} color="#ff878d" />
             </View>
         </View>
         <View style={styles.subHeader}>
@@ -41,28 +42,29 @@ export default class List extends Component{
 
   renderFilters = () =>{
     return (
-        <ScrollView
-          horizontal
-          showsHorizontalScrollIndicator={false}
-        >
+        
           <View style={[themes.row, styles.filterContainer]}>
-            <View style={styles.filter}>
-                <Text style={styles.filterText}>Sublet</Text>
-            </View>
-            <View style={styles.filter}>
-                <Text style={styles.filterText}>Office Space</Text>
-            </View>
-            <View style={[styles.filter, styles.activeFilter]}>
-                <Text style={[styles.filterText, styles.activeText]}>4 Beds</Text>
-            </View>
-            <View style={styles.filter}>
-                <Text style={styles.filterText}>3 Beds</Text>
-            </View>
-            <View style={styles.filter}>
-                <Text style={styles.filterText}>2 Beds</Text>
-            </View>
+            <ScrollView
+              horizontal
+              showsHorizontalScrollIndicator={false}
+            >
+                <View style={styles.filter}>
+                    <Text style={styles.filterText}>Sublet</Text>
+                </View>
+                <View style={styles.filter}>
+                    <Text style={styles.filterText}>Office Space</Text>
+                </View>
+                <View style={[styles.filter, styles.activeFilter]}>
+                    <Text style={[styles.filterText, styles.activeText]}>4 Beds</Text>
+                </View>
+                <View style={styles.filter}>
+                    <Text style={styles.filterText}>3 Beds</Text>
+                </View>
+                <View style={styles.filter}>
+                    <Text style={styles.filterText}>2 Beds</Text>
+                </View>
+            </ScrollView>
           </View>
-        </ScrollView>
     )
   }
 
@@ -95,13 +97,19 @@ export default class List extends Component{
                           <Text style={styles.priceText}>$1200</Text>
                           <Text style={styles.availability}>Avl:2 Sep, 2018</Text>
                       </View>
-                      <View style={[themes.row, { justifyContent:"space-evenly"}]}>
-                          <View style={themes.row}>
+                      <View style={[themes.row, { justifyContent:"flex-start"}]}>
+                          <View style={[themes.row, themes.flex, styles.iconContainer]}>
                               <MaterialCommunityIcon name="car" size={20} color="#8d85ff" />
-                              <Text>Bed</Text>
+                              <Text>4 Beds</Text>
                           </View>
-                          <Text>Bath</Text>
-                          <Text>1600 sqfit</Text>
+                          <View style={[themes.row, themes.flex, styles.iconContainer]}>
+                              <MaterialCommunityIcon name="shower" size={20} color="#ffa7ac" />
+                              <Text>2 Bathrooms</Text>
+                          </View>
+                          <View style={[themes.row, themes.flex, styles.iconContainer]}>
+                              <Ionicons name="ios-browsers" size={20} color="#ff88c7" />
+                              <Text>16 sqft</Text>
+                          </View>
                       </View>
                   </View>
               </View>

@@ -38,7 +38,8 @@ export const styles = StyleSheet.create({
         justifyContent:"center",
         alignItems:"center",
         marginTop:15,
-        elevation:0.5
+        elevation:0.5,
+        marginBottom:20
     },
     activeFilter: {
         backgroundColor:"#ff7a8a"
@@ -89,6 +90,10 @@ export const styles = StyleSheet.create({
     },
     availability: {
         color:"#39bd1f"
+    },
+    iconContainer: {
+        marginRight:10,
+        justifyContent:"space-evenly"
     }
 })
 
