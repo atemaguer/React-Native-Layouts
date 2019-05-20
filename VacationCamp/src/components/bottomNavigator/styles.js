@@ -9,8 +9,8 @@ export const styles = StyleSheet.create({
         bottom:0,
         left:0,
         right:0,
-        height:height*0.1,
-        backgroundColor:"#292b34",
+        height:height*0.12,
+        backgroundColor:"#fff",
         elevation:20
     },
     tabContainer: {
@@ -22,7 +22,8 @@ export const styles = StyleSheet.create({
     tab: {
         flex:1,
         justifyContent:"center",
-        alignItems:"center"
+        alignItems:"center",
+        position:"relative"
     },
     addButton: {
         position:"absolute",
@@ -35,5 +36,22 @@ export const styles = StyleSheet.create({
         alignItems:"center",
         elevation:30
     },
+    tabText: {
+        color:"#bababb", 
+        fontSize:13
+    },
+    activeTab:{
+        position:"absolute",
+        height:5,
+        borderTopLeftRadius:5,
+        borderTopRightRadius:5,
+        backgroundColor:"#f881b0",
+        bottom:0,
+        left:5,
+        right:5
+    },
+    activeTabText: {
+        color:"#f881b0"
+    }
 
 })

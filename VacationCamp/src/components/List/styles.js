@@ -53,12 +53,14 @@ export const styles = StyleSheet.create({
         paddingHorizontal:15
     },
     listContainer:{
-        marginHorizontal:20
+        marginHorizontal:20,
+        paddingBottom:100
     },
     cardContainer: {
         backgroundColor:"white",
         borderRadius:10,
         overflow:"hidden",
+        marginBottom:15
     },
     cardContent: {
         padding:15

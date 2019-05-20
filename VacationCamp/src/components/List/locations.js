@@ -1,0 +1,32 @@
+export const locations = [
+	{
+		name: "Carlifornia, USA 1212",
+		price: "1200",
+		image: require("../../assets/vacation_home1.jpg"),
+		images: [],
+		availability: "2 Sep, 2018",
+		beds: "4",
+		bathrooms: "2",
+		squareArea: "1600",
+	},
+	{
+		name: "Carlifornia, USA 1212",
+		price: "1200",
+		image: require("../../assets/vacation_home2.jpg"),
+		images: [],
+		availability: "2 Sep, 2018",
+		beds: "4",
+		bathrooms: "2",
+		squareArea: "1600",
+	},
+	{
+		name: "Carlifornia, USA 1212",
+		price: "1200",
+		image: require("../../assets/vacation_home3.jpg"),
+		images: [],
+		availability: "2 Sep, 2018",
+		beds: "4",
+		bathrooms: "2",
+		squareArea: "1600",
+	},
+];

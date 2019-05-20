@@ -21,5 +21,11 @@ export default StyleSheet.create({
     right:{
         justifyContent:'center',
         alignItems:"flex-end"
+    },
+    seperate: {
+        justifyContent:"space-between"
+    },
+    alignCenter: {
+        alignItems:"center"
     }
 }) 
