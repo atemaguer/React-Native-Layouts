@@ -33,7 +33,7 @@ Here is a sample of the completed apps with there respective mockups.
 1. VacationHome
     * mockup
 
-        <img src="./images/vacationHome.png" style="margin-top:20px" height="300" width="auto">
+        <img src="./images/vacation.png" style="margin-top:20px" height="300" width="auto">
 
     * Final App screnshot.
 
